@@ -11,6 +11,12 @@ public class Door : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
+
+    private void Update()
+    {
+        
+    }
+
     public void SwitchDoorState()
     {
         _isOpen = !_isOpen;
